@@ -10,10 +10,10 @@ import './App.css';
 
 
 function App() {
-  const [isLoggedIn, setisLoggedIn] = useState({isLoggedIn: false})
+  const [isLoggedIn, setisLoggedIn] = useState(false)
 
   function handleSubmit(event) {
-    setisLoggedIn(true)    
+    setisLoggedIn(true)
   }
 
   return (
@@ -22,6 +22,9 @@ function App() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/contacts">Контакты</Link>
+          {isLoggedIn ?
+               <a>Log out</a> :
+               <a>Log in</a>}
         </nav>
 
         <Switch>
