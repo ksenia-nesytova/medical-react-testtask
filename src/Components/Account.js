@@ -1,9 +1,9 @@
 import React from "react"
 
-function Greeting() {
+function Account() {
     return (
         <h1>Привет</h1>
     )
 }
 
-export default Greeting
+export default Account
