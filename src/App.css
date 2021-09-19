@@ -1,0 +1,28 @@
+:root{
+  --primary-color: rgba(255, 104, 91, 1);
+  --secondary-color: rgba(231, 64, 64, 1);
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.btn {
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.btn-login {
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+.btn-default {
+  background-color: var(--primary-color);
+}
+
+.btn-outline {
+  border-color: var(--primary-color);
+}

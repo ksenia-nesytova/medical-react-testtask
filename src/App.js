@@ -33,8 +33,8 @@ function App() {
     <Router>
       <div>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/contacts">Контакты</Link>
+          <Link to="/account" className=".btn-login btn-outline">Войти</Link>
+          <Link to="/contacts" >Контакты</Link>
           {isLoggedIn ?
                <a href="#" onClick = {handleLogout}>Log out</a> :
                <a href="#" onClick = {handleLogin}>Log in</a>}
